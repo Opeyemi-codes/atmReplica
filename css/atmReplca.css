@@ -30,7 +30,7 @@ body {
     /* animation: "fadeInUp"; */
     /* animation-delay:"300ms"; */
     /* opacity: 1; */
-    background-image: url(/images/bgOne.jpg);
+    background-image: url(../images/bgOne.jpg);
     background-size: cover;
     background-position-y:center;
     background-repeat: no-repeat;
