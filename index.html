@@ -1,0 +1,52 @@
+<!Doctype <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ATM replicate</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/atmReplca.css">
+    </head>
+    <body>
+        <main> 
+            <div id="divisionOne">
+                <p class="red" id="error">Invalid login details!!! </p>
+                <div class="containerOne" >
+                    <form method="POST">
+                        <input type="email" placeholder="Email" class="inputOne" id="mailInput" required /><br />
+                        <input type="password" placeholder="PIN" class="inputOne" id="loginPin" maxlength="4" required />
+                    </form>
+                    <button type="submit" value="Enter" id="btnSubmit">ENTER</button>
+                </div>
+            </div>
+            <div id="divisionTwo">
+                <p class="welcome" id="wel"> </p>
+                <div class="containerTwo" >
+                    <section>
+                        <button type="button" class="left" id="">Withdraw</button>
+                        <button type="button" class="right" id="">Deposit</button>
+                    </section>
+                    <hr class="hrLine">
+                    <section>
+                        <button type="button" class="left" id="">Pay Bills</button>
+                        <button type="button" class="right" id="">Check Balance</button>
+                    </section>
+                    <hr class="hrLine">
+                    <section>
+                        <button type="button" class="left" id="">Transfer</button>
+                        <button type="button" class="right" id="">Change Pin</button>
+                    </section>
+                    <hr class="hrLine">
+                    <section>
+                        
+                        <button type="button" value="reset" class="right" id="cancel">CANCEL</button>
+                    </section>
+                    <hr class="hrLine">
+                </div>
+            </div>
+        </main>
+        
+        <script src="js/atmRep.js"></script>
+    </body>
+</html>

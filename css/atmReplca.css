@@ -1,0 +1,102 @@
+/* GENERAL CLASS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.left {
+    margin: 40px 0;
+    float: left;
+}
+
+.right {
+    margin: 40px 0;
+    float: right;
+}
+
+.red {
+    color: red;
+}
+
+.hrLine {
+    visibility: hidden;
+    clear: both;
+}
+body {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    /* animation: "fadeInUp"; */
+    /* animation-delay:"300ms"; */
+    /* opacity: 1; */
+    background-image: url(/images/bgOne.jpg);
+    background-size: cover;
+    background-position-y:center;
+    background-repeat: no-repeat;
+    
+}
+
+/* PHASE ONE */
+
+.containerOne {
+    text-align: center;
+    margin-top: 150px;
+}
+#error {
+    font-style: italic;
+    font-weight:  800;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+    display: none;
+}
+
+input {
+    display: inline-block;
+    width: 35%;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 20px 0;
+    background-color: #f6f6f6;
+    letter-spacing: 2px;
+    background-color: #A13842;
+    border: 2px solid #550D0E;
+}
+
+#btnSubmit {
+    margin-top: 30px;
+    padding: 10px;
+    width: 20%;
+    font-size: 1.8em;
+    border-radius: 30px;
+    color: white;
+    font-weight: 800;
+    background-color: #A13842;
+    border: 2px solid #550D0E;
+    letter-spacing: 3px;
+
+}
+
+/* CONTAINER TWO */
+
+.welcome {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+#divisionTwo {
+    display: none;
+}
+.containerTwo {
+    margin-top: 40px;
+}
+
+.containerTwo button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    background-color: #A13842;
+    border: 2px solid #550D0E;
+}
