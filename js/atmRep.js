@@ -31,14 +31,16 @@ var users = [
         Email : "tshola@gmail.com",
         pin : 5555,
     },
-    
 ];    
+
+    var username;
+    var password;
 
     var but = document.getElementById("btnSubmit");
 
     but.onclick = function() {
-        var username = document.getElementById("mailInput").value;
-        var password = document.getElementById("loginPin").value;
+            username = document.getElementById("mailInput").value;
+            password = document.getElementById("loginPin").value;
         
 
         for (var i = 0; i < users.length; i++) {
@@ -52,21 +54,29 @@ var users = [
                 
             }else { 
                 document.getElementById('error').style.display = "block";
+                document.getElementById("mailInput").value = " ";
+                document.getElementById("loginPin").value = " ";
+    
             }
             
         }
     };
 
-        document.getElementById("cancel").addEventListener('onclick', reset)
-        
-        function reset() {
+    var reset = document.getElementById("cancel");
+
+    reset.onclick = function() {
+            
             document.getElementById('divisionTwo').style.display = "none";
             document.getElementById('divisionOne').style.display = "block";
-            username.value = " ";
-            password = " ";
+            document.getElementById("mailInput").value = " ";
+            document.getElementById("loginPin").value = " ";
+            document.getElementById('error').style.display = "none";
+    
         
-        };
+    };
 
+
+        
 
 
  

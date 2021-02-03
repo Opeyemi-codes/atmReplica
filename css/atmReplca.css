@@ -13,6 +13,7 @@
 .right {
     margin: 40px 0;
     float: right;
+    border: 2px inset;
 }
 
 .red {
